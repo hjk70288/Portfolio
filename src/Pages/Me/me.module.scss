@@ -1,0 +1,13 @@
+.me {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  height: 100%;
+  width: calc(100% - 380px);
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
