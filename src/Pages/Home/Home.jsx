@@ -44,7 +44,7 @@ const Home = () => {
       100,
       700
     );
-    startTypingAnimation("방문해주셔서 감사합니다.", subTitleRef, 100, 3200);
+    startTypingAnimation("방문해주셔서 감사합니다. 😸", subTitleRef, 100, 3200);
     setTimeout(() => {
       blinkRef.style.height = "1.2rem";
     }, 2800);
