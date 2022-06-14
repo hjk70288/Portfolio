@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Route, Switch } from "react-router-dom";
 import styles from "./main.module.scss";
 import Loading from "Components/Loading/Loading";
@@ -9,11 +9,6 @@ import Project from "Pages/Project/Project";
 import Error from "Pages/Error/Error";
 
 const Main = ({ history }) => {
-  useEffect(() => {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty("--vh", `${vh}px`);
-  });
-
   return (
     <>
       <Loading />
