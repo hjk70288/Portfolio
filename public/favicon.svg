@@ -2,15 +2,11 @@
   <style>
     svg{
       background-color: #000000;
-      <!-- background: linear-gradient(45deg, #dda0dd, rgba(255, 255, 255, 0) 60%),
-        linear-gradient(135deg, #87ceeb, rgba(255, 255, 255, 0) 60%),
-        linear-gradient(225deg, #e4e785, rgba(255, 255, 255, 0) 60%),
-        linear-gradient(315deg, #e07a5e, rgba(255, 255, 255, 0) 60%); -->
     }
     svg text { 
-      font: 13px "Playfair Display", serif;
+      font: 6px serif;
       fill: #FFFFFF;
     }
   </style>
-  <text x="3" y="12.5">V</text>
+  <text x="0.6" y="10">KYM</text>
 </svg>

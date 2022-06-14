@@ -5,7 +5,7 @@ import useScrollFadeIn from "Hooks/useScrollFadeIn";
 const Project = () => {
   return (
     <div {...useScrollFadeIn(0.7, 0)} className={styles["project"]}>
-      경험입니다
+      개발중
     </div>
   );
 };
