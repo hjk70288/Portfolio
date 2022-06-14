@@ -9,15 +9,16 @@ import Project from "Pages/Project/Project";
 import Error from "Pages/Error/Error";
 
 const Main = ({ history }) => {
-  const handleChangeWindow = () => {
+  const handleResizeWindow = () => {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty("--vh", `${vh}px`);
   };
   useEffect(() => {
-    window.addEventListener("resize", handleChangeWindow);
+    handleResizeWindow();
+    window.addEventListener("resize", handleResizeWindow);
 
     return () => {
-      window.removeEventListener("resize", handleChangeWindow);
+      window.removeEventListener("resize", handleResizeWindow);
     };
   }, []);
   return (
