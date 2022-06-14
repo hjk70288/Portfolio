@@ -43,3 +43,16 @@
     }
   }
 }
+
+@media (max-width: 1300px) {
+  .home {
+    width: calc(100% - 320px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .home {
+    width: 100%;
+    border-radius: 0;
+  }
+}

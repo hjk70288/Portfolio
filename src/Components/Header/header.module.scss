@@ -1,3 +1,51 @@
+.open-button {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #0ba376;
+  top: 1rem;
+  right: 1rem;
+  z-index: 3;
+  cursor: pointer;
+  display: none;
+
+  span {
+    position: absolute;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 50%;
+    height: 0.3rem;
+    background-color: #ffffff;
+    border-radius: 4px;
+    transition: all ease-in-out 0.2s;
+
+    &:nth-of-type(1) {
+      top: 35%;
+    }
+    &:nth-of-type(2) {
+      top: 50%;
+    }
+    &:nth-of-type(3) {
+      top: 65%;
+    }
+  }
+
+  &.open-button--open {
+    span:nth-of-type(1) {
+      top: 50%;
+      transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+    }
+    span:nth-of-type(2) {
+      opacity: 0;
+    }
+    span:nth-of-type(3) {
+      top: 50%;
+      transform: translate3d(-50%, -50%, 0) rotate(45deg);
+    }
+  }
+}
+
 .header {
   display: inline-block;
   width: 380px;
@@ -85,5 +133,93 @@
     width: 100%;
     text-align: center;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header {
+    width: 320px;
+    height: 90vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .open-button {
+    display: block;
+  }
+
+  .header {
+    z-index: 2;
+    background-color: #0ba376;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    transform: translate3d(100%, 0, 0);
+    transition: all ease-in-out 0.2s;
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 1300px) and (max-height: 880px) {
+  .header {
+    .header__profile {
+      width: 140px;
+      height: 140px;
+    }
+
+    .header__social {
+      margin-top: 2rem;
+    }
+
+    .header__links {
+      margin-top: 2rem;
+
+      div {
+        padding: 0.5em;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-height: 770px) {
+  .header {
+    .header__profile {
+      width: 140px;
+      height: 140px;
+    }
+
+    .header__social {
+      margin-top: 2rem;
+    }
+
+    .header__links {
+      margin-top: 2rem;
+
+      div {
+        padding: 0.5em;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 770px) {
+  .header {
+    .header__profile {
+      width: 140px;
+      height: 140px;
+    }
+
+    .header__social {
+      margin-top: 2rem;
+    }
+
+    .header__links {
+      margin-top: 2rem;
+
+      div {
+        padding: 0.5em;
+      }
+    }
   }
 }

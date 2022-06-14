@@ -53,7 +53,7 @@
 
     .me__contact {
       font-size: 1rem;
-      margin-bottom: 1em;
+      margin-bottom: 1.3em;
       color: #333333;
 
       .contact__title {
@@ -191,6 +191,33 @@
 
           background-size: 6px 6px;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .me {
+    width: calc(100% - 320px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .me {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .me {
+    .me__content {
+      .me__introduce {
+        margin-bottom: 3rem;
+      }
+
+      .me__tech-skill {
+        margin-top: 3rem;
       }
     }
   }

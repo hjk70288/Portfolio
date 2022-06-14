@@ -14,3 +14,30 @@
     border-radius: 32px;
   }
 }
+
+@media (max-width: 1300px) {
+  .page {
+    padding: 0 4rem;
+
+    .page__content {
+      min-height: 90vh;
+      margin: 5vh auto;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .page {
+    padding: 0;
+
+    .page__content {
+      min-height: 100vh;
+      margin: 0;
+      border-radius: 0;
+
+      .header-button {
+        display: block;
+      }
+    }
+  }
+}
