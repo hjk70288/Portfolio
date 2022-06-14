@@ -75,9 +75,9 @@ const Header = props => {
           <Button selected={pathname === "/me"} link="/me">
             About Me
           </Button>
-          <Button selected={pathname === "/project"} link="/project">
+          {/* <Button selected={pathname === "/project"} link="/project">
             Project
-          </Button>
+          </Button> */}
         </div>
 
         <div className={styles["header__copyright"]}>
