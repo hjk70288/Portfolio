@@ -54,8 +54,8 @@ const Header = props => {
         <Button selected={pathname === "/me"} link="/me">
           About Me
         </Button>
-        <Button selected={pathname === "/experience"} link="/experience">
-          Experience
+        <Button selected={pathname === "/project"} link="/project">
+          Project
         </Button>
       </div>
 

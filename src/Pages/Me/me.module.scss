@@ -6,8 +6,192 @@
   height: 100%;
   width: calc(100% - 380px);
   border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
+
+  .me__content {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    overflow: auto;
+
+    .me__title {
+      display: inline-block;
+      font-size: 2.5rem;
+      font-weight: bold;
+      position: relative;
+      margin-bottom: 1em;
+      padding-left: 15px;
+
+      span {
+        color: #0ba376;
+      }
+
+      &::after {
+        position: absolute;
+        opacity: 0.45;
+        top: 0.5em;
+        right: -0.8em;
+        content: "";
+        height: 1em;
+        width: 1.5em;
+        background-image: -webkit-repeating-radial-gradient(
+          center center,
+          #0ba376,
+          #0ba376 1px,
+          transparent 0px,
+          transparent 100%
+        );
+
+        background-size: 6px 6px;
+      }
+    }
+
+    .me__introduce {
+      font-size: 1.1rem;
+      line-height: 1.6em;
+      color: #333333;
+    }
+
+    .me__contact {
+      font-size: 1rem;
+      margin-bottom: 1em;
+      color: #333333;
+
+      .contact__title {
+        display: inline-block;
+        color: #0ba376;
+        font-weight: bold;
+        margin-right: 0.7em;
+      }
+    }
+
+    .me__experience {
+      margin-bottom: 3rem;
+
+      .experience__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 1em;
+
+        span {
+          color: #0ba376;
+        }
+
+        &::after {
+          position: absolute;
+          opacity: 0.45;
+          top: 0.5em;
+          right: -0.8em;
+          content: "";
+          height: 0.8em;
+          width: 1.5em;
+          background-image: -webkit-repeating-radial-gradient(
+            center center,
+            #0ba376,
+            #0ba376 1px,
+            transparent 0px,
+            transparent 100%
+          );
+
+          background-size: 6px 6px;
+        }
+      }
+    }
+
+    .me__certificate {
+      margin-bottom: 3rem;
+
+      .certificate__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 1em;
+        color: #0ba376;
+
+        &::after {
+          position: absolute;
+          opacity: 0.45;
+          top: 0.5em;
+          right: -0.8em;
+          content: "";
+          height: 0.8em;
+          width: 1.5em;
+          background-image: -webkit-repeating-radial-gradient(
+            center center,
+            #0ba376,
+            #0ba376 1px,
+            transparent 0px,
+            transparent 100%
+          );
+
+          background-size: 6px 6px;
+        }
+      }
+    }
+
+    .me__education {
+      .education__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 1em;
+        color: #0ba376;
+
+        &::after {
+          position: absolute;
+          opacity: 0.45;
+          top: 0.5em;
+          right: -0.8em;
+          content: "";
+          height: 0.8em;
+          width: 1.5em;
+          background-image: -webkit-repeating-radial-gradient(
+            center center,
+            #0ba376,
+            #0ba376 1px,
+            transparent 0px,
+            transparent 100%
+          );
+
+          background-size: 6px 6px;
+        }
+      }
+    }
+
+    .me__tech-skill {
+      .tech-skill__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 1em;
+
+        span {
+          color: #0ba376;
+        }
+
+        &::after {
+          position: absolute;
+          opacity: 0.45;
+          top: 0.5em;
+          right: -0.8em;
+          content: "";
+          height: 0.8em;
+          width: 1.5em;
+          background-image: -webkit-repeating-radial-gradient(
+            center center,
+            #0ba376,
+            #0ba376 1px,
+            transparent 0px,
+            transparent 100%
+          );
+
+          background-size: 6px 6px;
+        }
+      }
+    }
+  }
 }

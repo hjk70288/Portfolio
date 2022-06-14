@@ -5,7 +5,7 @@ import Loading from "Components/Loading/Loading";
 import Header from "Components/Header/Header";
 import Home from "Pages/Home/Home";
 import Me from "Pages/Me/Me";
-import Experience from "Pages/Experience/Experience";
+import Project from "Pages/Project/Project";
 import Error from "Pages/Error/Error";
 
 const Main = ({ history }) => {
@@ -18,7 +18,7 @@ const Main = ({ history }) => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/me" component={Me} />
-            <Route exact path="/experience" component={Experience} />
+            <Route exact path="/project" component={Project} />
             <Route path="*" component={Error} />
           </Switch>
         </div>
