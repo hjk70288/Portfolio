@@ -4,8 +4,8 @@
   right: 0;
   background-color: #ffffff;
   height: 100%;
-  /* iOS only */
   @supports (-webkit-touch-callout: none) {
+    /* iOS only */
     height: -webkit-fill-available;
   }
   width: calc(100% - 380px);
