@@ -30,7 +30,8 @@
     overflow: auto;
 
     .detail__close-button {
-      position: absolute;
+      position: fixed;
+      z-index: 999;
       width: 4rem;
       height: 4rem;
       border-radius: 50%;
