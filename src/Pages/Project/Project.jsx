@@ -4,7 +4,7 @@ import useScrollFadeIn from "Hooks/useScrollFadeIn";
 import { Route, Switch } from "react-router-dom";
 import { Container, Row, Col } from "react-grid-system";
 import ProjectItem from "Components/Project/Item/ProjectItem";
-import Kop from "./Detail/7meerkat/Kop/Kop";
+import Kop from "./List/7meerkat/Kop/Kop";
 
 const Project = () => {
   return (
