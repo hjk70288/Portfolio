@@ -1,6 +1,10 @@
 .detail {
   width: 100vw;
   height: 100vh;
+  @supports (-webkit-touch-callout: none) {
+    /* iOS only */
+    height: -webkit-fill-available;
+  }
   position: fixed;
   background-color: #ffffff;
   top: 0;
