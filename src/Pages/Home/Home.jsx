@@ -51,7 +51,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div {...useScrollFadeIn(0.7, 0)} className={styles["home"]}>
+    <div {...useScrollFadeIn(0, 0.7, 0)} className={styles["home"]}>
       <div ref={welcomeRef} className={styles["home__welcome"]}>
         <span className={styles["welcome__title"]}></span>
         <span className={styles["welcome__sub-title"]}>asdsa</span>

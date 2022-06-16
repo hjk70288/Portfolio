@@ -18,7 +18,7 @@ const Main = ({ history }) => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/me" component={Me} />
-            <Route exact path="/project" component={Project} />
+            <Route path="/project" component={Project} />
             <Route path="*" component={Error} />
           </Switch>
         </div>

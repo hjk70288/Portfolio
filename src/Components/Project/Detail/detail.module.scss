@@ -1,0 +1,130 @@
+.detail {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: transform ease-in-out 1s;
+  animation: start-render ease-in-out 1s forwards;
+
+  @keyframes start-render {
+    0% {
+      transform: translate3d(-100%, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .detail__content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 5rem 3rem 3rem 3rem;
+    overflow: auto;
+
+    .detail__close-button {
+      position: absolute;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      background-color: #0ba376;
+      top: 1rem;
+      right: 1rem;
+      cursor: pointer;
+
+      span {
+        position: absolute;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        width: 50%;
+        height: 0.3rem;
+        background-color: #ffffff;
+        border-radius: 4px;
+
+        &:nth-of-type(1) {
+          top: 50%;
+          transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+        }
+        &:nth-of-type(2) {
+          top: 50%;
+          transform: translate3d(-50%, -50%, 0) rotate(45deg);
+        }
+      }
+    }
+
+    .detail__title {
+      display: inline-block;
+      font-size: 2.5rem;
+      font-weight: bold;
+      position: relative;
+      margin-bottom: 1em;
+      padding-left: 30px;
+    }
+
+    .detail__desc {
+      background-color: #f4f4f4;
+      padding: 2rem;
+      font-size: 1.1rem;
+      line-height: 1.6em;
+      color: #333333;
+
+      .desc__title {
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: bold;
+        position: relative;
+        color: #0ba376;
+
+        &::after {
+          position: absolute;
+          opacity: 0.45;
+          top: 0.5em;
+          right: -0.8em;
+          content: "";
+          height: 1em;
+          width: 1.5em;
+          background-image: -webkit-repeating-radial-gradient(
+            center center,
+            #0ba376,
+            #0ba376 1px,
+            transparent 0px,
+            transparent 100%
+          );
+
+          background-size: 6px 6px;
+        }
+      }
+
+      .desc__info {
+        margin: 1.5rem 0;
+        i {
+          margin-right: 0.5rem;
+        }
+      }
+
+      .desc__content {
+        b {
+          font-weight: bold;
+          color: #555555;
+          display: block;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .detail {
+    .detail__content {
+      padding: 6rem 2.5rem 2.5rem 2.5rem;
+
+      .detail__desc {
+        margin-top: 2.5rem;
+      }
+    }
+  }
+}

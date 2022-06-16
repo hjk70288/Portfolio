@@ -7,7 +7,7 @@ import Progress from "Components/Progress/Progress";
 
 const Me = () => {
   return (
-    <div {...useScrollFadeIn(0.7, 0)} className={styles["me"]}>
+    <div {...useScrollFadeIn(2, 0.7, 0)} className={styles["me"]}>
       <div className={styles["me__content"]}>
         <div className={styles["me__title"]}>
           About <span>Me</span>

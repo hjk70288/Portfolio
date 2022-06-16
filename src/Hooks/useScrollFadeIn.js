@@ -1,8 +1,8 @@
 import { useRef, useEffect, useCallback } from "react";
 
-const useScrollFadeIn = (duration = 1, delay = 0) => {
+const useScrollFadeIn = (direction, duration = 1, delay = 0) => {
   const dom = useRef();
-  const direction = Math.floor(Math.random() * 4);
+  // const direction = Math.floor(Math.random() * 4);
 
   const handleDirection = name => {
     switch (name) {
@@ -33,12 +33,9 @@ const useScrollFadeIn = (duration = 1, delay = 0) => {
         current.style.transitionDelay = `${delay}s`;
         current.style.opacity = 1;
         current.style.transform = "translate3d(0, 0, 0)";
-      } else {
-        current.style.opacity = 0;
-        current.style.transform = handleDirection(direction);
       }
     },
-    [delay, direction, duration]
+    [delay, duration]
   );
 
   useEffect(() => {
@@ -46,7 +43,7 @@ const useScrollFadeIn = (duration = 1, delay = 0) => {
     const { current } = dom;
 
     if (current) {
-      observer = new IntersectionObserver(handleScroll, { threshold: 0.1 });
+      observer = new IntersectionObserver(handleScroll, { threshold: 0.3 });
       observer.observe(current);
     }
 

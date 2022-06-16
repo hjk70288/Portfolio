@@ -6,10 +6,42 @@
   height: 100%;
   width: calc(100% - 380px);
   border-radius: 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
+
+  .project__content {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    overflow: auto;
+
+    .project__title {
+      display: inline-block;
+      font-size: 2.5rem;
+      font-weight: bold;
+      position: relative;
+      margin-bottom: 1.5em;
+      padding-left: 15px;
+      color: #0ba376;
+
+      &::after {
+        position: absolute;
+        opacity: 0.45;
+        top: 0.5em;
+        right: -0.8em;
+        content: "";
+        height: 1em;
+        width: 1.5em;
+        background-image: -webkit-repeating-radial-gradient(
+          center center,
+          #0ba376,
+          #0ba376 1px,
+          transparent 0px,
+          transparent 100%
+        );
+
+        background-size: 6px 6px;
+      }
+    }
+  }
 }
 
 @media (max-width: 1300px) {
