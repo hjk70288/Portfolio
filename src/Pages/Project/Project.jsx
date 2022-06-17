@@ -7,13 +7,15 @@ import ProjectItem from "Components/Project/Item/ProjectItem";
 import Kop from "./List/7meerkat/Kop/Kop";
 import Koc from "./List/7meerkat/Koc/Koc";
 import Commerce from "./List/7meerkat/Commerce/Commerce";
+import Api from "./List/7meerkat/Api/Api";
 import HunMinJeomUm from "./List/HunMinJeomUm/HunMinJeomUm";
 import Various from "./List/Various/Various";
 import kopThumbnail from "Images/Project/7meerkat/Kop/kop0.png";
 import kocThumbnail from "Images/Project/7meerkat/Koc/koc0.png";
-import ComThumbnail from "Images/Project/7meerkat/Commerce/com0.png";
-import HunThumbnail from "Images/Project/HunMinJeomUm/hun0.png";
-import VarThumbnail from "Images/Project/Various/var0.png";
+import comThumbnail from "Images/Project/7meerkat/Commerce/com0.png";
+import apiThumbnail from "Images/Project/7meerkat/Api/7meerkat.ico";
+import hunThumbnail from "Images/Project/HunMinJeomUm/hun0.png";
+import varThumbnail from "Images/Project/Various/var0.png";
 
 const Project = () => {
   return (
@@ -48,7 +50,7 @@ const Project = () => {
               <Col sm={6}>
                 <ProjectItem
                   to={"7meerkat/commerce"}
-                  thumbnail={ComThumbnail}
+                  thumbnail={comThumbnail}
                   title={"💰 커머스 관리자 페이지 개발"}
                   period={"2021 - 2022"}
                   skills={"#React #Node.js"}
@@ -56,11 +58,11 @@ const Project = () => {
               </Col>
               <Col sm={6}>
                 <ProjectItem
-                  to={"hunminjeomum"}
-                  thumbnail={HunThumbnail}
-                  title={"🇰🇷 훈민점음"}
-                  period={"2020 - 2021"}
-                  skills={"#Python3 #OpenCV"}
+                  to={"7meerkat/api"}
+                  thumbnail={apiThumbnail}
+                  title={"📡 세븐미어캣 API 서버 개발"}
+                  period={"2021 - 2022"}
+                  skills={"#Node.js"}
                 />
               </Col>
             </Row>
@@ -69,10 +71,19 @@ const Project = () => {
               <Col sm={6}>
                 <ProjectItem
                   to={"various"}
-                  thumbnail={VarThumbnail}
+                  thumbnail={varThumbnail}
                   title={"🎨 온라인 전시회 VARIOUS"}
                   period={"2022"}
                   skills={"#React"}
+                />
+              </Col>
+              <Col sm={6}>
+                <ProjectItem
+                  to={"hunminjeomum"}
+                  thumbnail={hunThumbnail}
+                  title={"🇰🇷 훈민점음"}
+                  period={"2020 - 2021"}
+                  skills={"#Python3 #OpenCV"}
                 />
               </Col>
             </Row>
@@ -83,6 +94,7 @@ const Project = () => {
         <Route exact path="/project/7meerkat/kop" component={Kop} />
         <Route exact path="/project/7meerkat/koc" component={Koc} />
         <Route exact path="/project/7meerkat/commerce" component={Commerce} />
+        <Route exact path="/project/7meerkat/api" component={Api} />
         <Route exact path="/project/hunminjeomum" component={HunMinJeomUm} />
         <Route exact path="/project/various" component={Various} />
       </Switch>
