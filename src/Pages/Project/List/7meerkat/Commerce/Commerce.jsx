@@ -11,7 +11,7 @@ import img5 from "Images/Project/7meerkat/Commerce/com5.png";
 const Commerce = () => {
   return (
     <Detail
-      title={"커머스 관리자 페이지 개발"}
+      title={"💰 커머스 관리자 페이지 개발"}
       images={[img0, img1, img2, img3, img4, img5]}
     >
       <div className={styles["desc__info"]}>

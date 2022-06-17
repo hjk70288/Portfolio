@@ -9,13 +9,16 @@ import img4 from "Images/Project/Various/var4.png";
 
 const Various = () => {
   return (
-    <Detail title={"Various"} images={[img0, img1, img2, img3, img4]}>
+    <Detail
+      title={"🎨 온라인 전시회 VARIOUS"}
+      images={[img0, img1, img2, img3, img4]}
+    >
       <div className={styles["desc__info"]}>
         <div>
           <i>💻</i> 김용민
         </div>
         <div>
-          <i>🗓</i> 2021 - 2022
+          <i>🗓</i> 2022
         </div>
         <div>
           <i>🔗</i>

@@ -10,7 +10,7 @@ import img4 from "Images/Project/7meerkat/Kop/kop4.png";
 const Kop = () => {
   return (
     <Detail
-      title={"주차장 관리자 페이지 개발"}
+      title={"🚗 주차장 관리자 페이지 개발"}
       images={[img0, img1, img2, img3, img4]}
     >
       <div className={styles["desc__info"]}>
