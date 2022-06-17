@@ -5,10 +5,11 @@ import img0 from "Images/Project/HunMinJeomUm/hun0.png";
 import img1 from "Images/Project/HunMinJeomUm/hun1.png";
 import img2 from "Images/Project/HunMinJeomUm/hun2.png";
 import img3 from "Images/Project/HunMinJeomUm/hun3.png";
+import img4 from "Images/Project/HunMinJeomUm/hun4.png";
 
 const HunMinJeomUm = () => {
   return (
-    <Detail title={"훈민점음"} images={[img0, img1, img2, img3]}>
+    <Detail title={"훈민점음"} images={[img0, img1, img2, img3, img4]}>
       <div className={styles["desc__info"]}>
         <div>
           <i>💻</i> 김용민
