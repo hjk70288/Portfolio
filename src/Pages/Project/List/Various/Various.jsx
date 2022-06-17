@@ -1,24 +1,31 @@
 import React from "react";
 import styles from "Components/Project/Detail/detail.module.scss";
 import Detail from "Components/Project/Detail/Detail";
-import img0 from "Images/Project/7meerkat/Kop/kop0.png";
-import img1 from "Images/Project/7meerkat/Kop/kop1.png";
-import img2 from "Images/Project/7meerkat/Kop/kop2.png";
-import img3 from "Images/Project/7meerkat/Kop/kop3.png";
-import img4 from "Images/Project/7meerkat/Kop/kop4.png";
+import img0 from "Images/Project/Various/var0.png";
+import img1 from "Images/Project/Various/var1.png";
+import img2 from "Images/Project/Various/var2.png";
+import img3 from "Images/Project/Various/var3.png";
+import img4 from "Images/Project/Various/var4.png";
 
-const Kop = () => {
+const Various = () => {
   return (
-    <Detail
-      title={"주차장 관리자 페이지 개발"}
-      images={[img0, img1, img2, img3, img4]}
-    >
+    <Detail title={"Various"} images={[img0, img1, img2, img3, img4]}>
       <div className={styles["desc__info"]}>
         <div>
           <i>💻</i> 김용민
         </div>
         <div>
           <i>🗓</i> 2021 - 2022
+        </div>
+        <div>
+          <i>🔗</i>
+          <a
+            href="https://hjk70288.github.io/Various"
+            target="blank"
+            style={{ color: "#0066a2" }}
+          >
+            보러가기
+          </a>
         </div>
       </div>
       <div className={styles["desc__content"]}>
@@ -50,4 +57,4 @@ const Kop = () => {
   );
 };
 
-export default Kop;
+export default Various;

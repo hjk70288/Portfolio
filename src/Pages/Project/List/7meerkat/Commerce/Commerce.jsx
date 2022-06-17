@@ -1,17 +1,18 @@
 import React from "react";
 import styles from "Components/Project/Detail/detail.module.scss";
 import Detail from "Components/Project/Detail/Detail";
-import img0 from "Images/Project/7meerkat/Kop/kop0.png";
-import img1 from "Images/Project/7meerkat/Kop/kop1.png";
-import img2 from "Images/Project/7meerkat/Kop/kop2.png";
-import img3 from "Images/Project/7meerkat/Kop/kop3.png";
-import img4 from "Images/Project/7meerkat/Kop/kop4.png";
+import img0 from "Images/Project/7meerkat/Commerce/com0.png";
+import img1 from "Images/Project/7meerkat/Commerce/com1.png";
+import img2 from "Images/Project/7meerkat/Commerce/com2.png";
+import img3 from "Images/Project/7meerkat/Commerce/com3.png";
+import img4 from "Images/Project/7meerkat/Commerce/com4.png";
+import img5 from "Images/Project/7meerkat/Commerce/com5.png";
 
-const Kop = () => {
+const Commerce = () => {
   return (
     <Detail
-      title={"주차장 관리자 페이지 개발"}
-      images={[img0, img1, img2, img3, img4]}
+      title={"커머스 관리자 페이지 개발"}
+      images={[img0, img1, img2, img3, img4, img5]}
     >
       <div className={styles["desc__info"]}>
         <div>
@@ -50,4 +51,4 @@ const Kop = () => {
   );
 };
 
-export default Kop;
+export default Commerce;

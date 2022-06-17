@@ -23,6 +23,12 @@
     .project__thumbnail {
       background-color: #0ba376;
       height: calc(100% - 5rem);
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
 
     .project__desc {

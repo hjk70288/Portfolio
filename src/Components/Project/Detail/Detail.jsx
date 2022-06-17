@@ -38,6 +38,7 @@ const Detail = props => {
             <Col md={6.5}>
               <ImageGallery
                 items={imageList}
+                showIndex={true}
                 autoPlay={true}
                 showNav={false}
                 showPlayButton={false}
