@@ -33,28 +33,30 @@ const Various = () => {
       </div>
       <div className={styles["desc__content"]}>
         <b># 프로젝트 내용</b>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-        quibusdam? Explicabo, quidem repudiandae architecto molestiae animi
-        optio eos dolorum ea aperiam commodi fugiat facere doloribus suscipit
-        non ipsa nam iusto?
-        <div className="white-space-v" />
-        <b># 주요 기능</b>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-        quibusdam? Explicabo, quidem repudiandae architecto molestiae animi
-        optio eos dolorum ea aperiam commodi fugiat facere doloribus suscipit
-        non ipsa nam iusto?
+        평소 동생이 인스타그램에 올리는 그림들을 보고 이 그림들로 온라인
+        전시회를 해보면 어떨까 하는 생각이 들어 진행한 토이 프로젝트입니다.
+        <br />
+        <br />
+        인간의 다양한 감정을 표현하는것을 주제로 하였으며 사랑, 불안, 고통을
+        표현하는 3가지 그림들을 전시하였습니다.
+        <br />
+        <br />
+        메인 페이지에는 마우스를 따라다니는 SVG로 벽에 손전등을 비추는듯한
+        효과를 표현하고자 하였습니다. 클릭 가능한 요소 위에 마우스를 오버하면
+        손전등이 밝게 빛나도록 구현하였습니다.
+        <br />
+        <br />
+        그림의 상세페이지에는 각 감정과 어울린다고 생각이 드는 CSS 효과를
+        구현해보았습니다.
         <div className="white-space-v" />
         <b># 역할</b>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-        quibusdam? Explicabo, quidem repudiandae architecto molestiae animi
-        optio eos dolorum ea aperiam commodi fugiat facere doloribus suscipit
-        non ipsa nam iusto?
+        개발 1명 / 미술 1명
+        <br />
+        저는 본 프로젝트에서, 개발의 모든 것을 담당하였으며 동생으로부터 그림을
+        제공받아 개발하였습니다.
         <div className="white-space-v" />
         <b># 기술 스택</b>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-        quibusdam? Explicabo, quidem repudiandae architecto molestiae animi
-        optio eos dolorum ea aperiam commodi fugiat facere doloribus suscipit
-        non ipsa nam iusto?
+        React / CSS (SCSS)
       </div>
     </Detail>
   );
