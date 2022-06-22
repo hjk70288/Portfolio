@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #ffffff;
+  background-color: #2e313d;
   height: 100%;
   width: calc(100% - 380px);
   border-radius: 32px;
@@ -21,7 +21,7 @@
       position: relative;
       margin-bottom: 1.5em;
       padding-left: 15px;
-      color: #0ba376;
+      color: #f5f7ff;
 
       &::after {
         position: absolute;
@@ -33,8 +33,8 @@
         width: 1.5em;
         background-image: -webkit-repeating-radial-gradient(
           center center,
-          #0ba376,
-          #0ba376 1px,
+          #f5f7ff,
+          #f5f7ff 1px,
           transparent 0px,
           transparent 100%
         );

@@ -11,14 +11,14 @@
     }
 
     .title__percentage {
-      color: #555555;
+      color: #d8dbe7;
     }
   }
 
   .progress__bar {
     position: relative;
-    background-color: #fff;
-    border: 1px solid #0ba376;
+    background-color: #f5f7ff;
+    border: 1px solid #7392ff;
     border-radius: 8px;
     height: 0.7rem;
     width: 100%;
@@ -29,9 +29,9 @@
       top: 0;
       left: 0;
       height: 100%;
-      background-color: #0ba376;
+      background-color: #7392ff;
       border-radius: 8px;
-      border: 2px solid #ffffff;
+      border: 2px solid #f5f7ff;
     }
   }
 }

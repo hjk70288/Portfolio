@@ -19,7 +19,7 @@
 
     .agency {
       font-size: 0.9rem;
-      color: #555555;
+      color: #a1a5b6;
       margin-top: 0.5rem;
     }
   }
@@ -39,8 +39,8 @@
       width: 1rem;
       height: 1rem;
       border-radius: 50%;
-      background-color: #0ba376;
-      opacity: 0.25;
+      background-color: #7392ff;
+      opacity: 0.3;
       transform: translate3d(-50%, 0, 0);
     }
     &::after {
@@ -51,7 +51,7 @@
       height: 0.3rem;
       background-color: #fff;
       border-radius: 50%;
-      border: 2px solid #0ba376;
+      border: 2px solid #7392ff;
       transform: translate3d(-50%, 0.2rem, 0);
     }
   }
@@ -68,13 +68,13 @@
     }
 
     .desc__content {
-      color: #333333;
+      color: #d8dbe7;
       margin-top: 0.5rem;
       line-height: 1.6em;
 
       b {
         font-weight: bold;
-        color: #555555;
+        color: #878c9e;
         font-size: 0.85rem;
       }
     }
