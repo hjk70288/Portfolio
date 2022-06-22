@@ -45,13 +45,13 @@ const Koc = () => {
         기능들을 제공합니다.
         <div className="white-space-v" />
         <b># 역할</b>
-        웹 개발 1명
+        개발 1명
         <br />
         저는 본 프로젝트에서 풀스택 웹 개발 포지션으로 개발을 총괄하여 기능 개발
         및 유지보수를 진행하였습니다.
         <div className="white-space-v" />
         <b># 기술 스택</b>
-        React / Redux / Node.js / MariaDB / Highcharts.js
+        React / Redux / Node.js / MariaDB / Highcharts.js / Firebase
       </div>
     </Detail>
   );

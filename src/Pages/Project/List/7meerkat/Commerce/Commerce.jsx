@@ -24,28 +24,34 @@ const Commerce = () => {
       </div>
       <div className={styles["desc__content"]}>
         <b># 프로젝트 내용</b>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-        quibusdam? Explicabo, quidem repudiandae architecto molestiae animi
-        optio eos dolorum ea aperiam commodi fugiat facere doloribus suscipit
-        non ipsa nam iusto?
+        세븐미어캣에서 서비스하는 샵 기능을 관리할 수 있는 페이지를
+        개발하였습니다.
         <div className="white-space-v" />
         <b># 주요 기능</b>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-        quibusdam? Explicabo, quidem repudiandae architecto molestiae animi
-        optio eos dolorum ea aperiam commodi fugiat facere doloribus suscipit
-        non ipsa nam iusto?
+        상품 CRUD, 주문 관리(배송 관리)등의 커머스 관리 기능들을 주로
+        제공합니다.
+        <br />
+        <br />
+        상품 등록 시 옵션을 설정할 수 있게 하여 옵션 별 가격 책정도 다르게 할 수
+        있도록 개발하였습니다.
+        <br />
+        <br />
+        주문된 상품의 송장 번호로 배송 정보를 조회해 배송 상태를 알아내는 작업을
+        자동화하여 사람이 수작업으로 배송 상태를 바꾸지 않아도 되도록
+        개발하였습니다.
+        <br />
+        <br />
+        이 외에도 결제와 결제 취소 내역을 살펴볼 수 있는 결제 관리 기능과 결제
+        횟수 통계를 나타낸 그래프를 확인할 수 있는 기능 또한 제공합니다.
         <div className="white-space-v" />
         <b># 역할</b>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-        quibusdam? Explicabo, quidem repudiandae architecto molestiae animi
-        optio eos dolorum ea aperiam commodi fugiat facere doloribus suscipit
-        non ipsa nam iusto?
+        DB 설계 1명 / 개발 1명
+        <br />
+        저는 본 프로젝트에서 풀스택 웹 개발 포지션으로 설계된 DB를 바탕으로
+        전체적인 기능 개발을 진행하였습니다.
         <div className="white-space-v" />
         <b># 기술 스택</b>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-        quibusdam? Explicabo, quidem repudiandae architecto molestiae animi
-        optio eos dolorum ea aperiam commodi fugiat facere doloribus suscipit
-        non ipsa nam iusto?
+        React / Node.js / MariaDB
       </div>
     </Detail>
   );

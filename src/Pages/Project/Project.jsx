@@ -13,7 +13,7 @@ import Various from "./List/Various/Various";
 import kopThumbnail from "Images/Project/7meerkat/Kop/kop0.png";
 import kocThumbnail from "Images/Project/7meerkat/Koc/koc0.png";
 import comThumbnail from "Images/Project/7meerkat/Commerce/com0.png";
-import apiThumbnail from "Images/Project/7meerkat/Api/7meerkat.ico";
+// import apiThumbnail from "Images/Project/7meerkat/Api/7meerkat.ico";
 import hunThumbnail from "Images/Project/HunMinJeomUm/hun0.png";
 import varThumbnail from "Images/Project/Various/var0.png";
 
@@ -58,18 +58,6 @@ const Project = () => {
               </Col>
               <Col sm={6}>
                 <ProjectItem
-                  to={"7meerkat/api"}
-                  thumbnail={apiThumbnail}
-                  title={"📡 세븐미어캣 API 서버 개발"}
-                  period={"2021 - 2022"}
-                  skills={"#Node.js"}
-                />
-              </Col>
-            </Row>
-
-            <Row justify="between">
-              <Col sm={6}>
-                <ProjectItem
                   to={"various"}
                   thumbnail={varThumbnail}
                   title={"🎨 온라인 전시회 VARIOUS"}
@@ -77,6 +65,18 @@ const Project = () => {
                   skills={"#React"}
                 />
               </Col>
+              {/* <Col sm={6}>
+                <ProjectItem
+                  to={"7meerkat/api"}
+                  thumbnail={apiThumbnail}
+                  title={"📡 세븐미어캣 API 서버 개발"}
+                  period={"2021 - 2022"}
+                  skills={"#Node.js"}
+                />
+              </Col> */}
+            </Row>
+
+            <Row justify="between">
               <Col sm={6}>
                 <ProjectItem
                   to={"hunminjeomum"}
