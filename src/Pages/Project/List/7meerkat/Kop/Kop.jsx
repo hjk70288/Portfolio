@@ -42,8 +42,8 @@ const Kop = () => {
         <b># 역할</b>
         PM 1명 / 웹 개발 1명
         <br />
-        저는 풀스택 웹 개발 포지션으로 전체적인 기능 개발 및 유지보수를
-        진행하였습니다.
+        저는 본 프로젝트에서 풀스택 웹 개발 포지션으로 전체적인 기능 개발 및
+        유지보수를 진행하였습니다.
         <div className="white-space-v" />
         <b># 기술 스택</b>
         React / Redux / Node.js / MariaDB / AWS(S3)
