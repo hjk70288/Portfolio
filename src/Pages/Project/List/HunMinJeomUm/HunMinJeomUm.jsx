@@ -22,7 +22,7 @@ const HunMinJeomUm = () => {
           <a
             href="https://www.koreascience.or.kr/article/JAKO202130760005667.page"
             target="blank"
-            style={{ color: "#0066a2" }}
+            style={{ color: "#0099cc" }}
           >
             논문 보러가기
           </a>

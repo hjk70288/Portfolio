@@ -25,7 +25,7 @@ const Various = () => {
           <a
             href="https://hjk70288.github.io/Various"
             target="blank"
-            style={{ color: "#0066a2" }}
+            style={{ color: "#0099cc" }}
           >
             보러가기
           </a>
