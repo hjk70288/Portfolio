@@ -22,7 +22,9 @@ const Project = () => {
     <>
       <div {...useScrollFadeIn(1, 0.7, 0)} className={styles["project"]}>
         <div className={styles["project__content"]}>
-          <div className={styles["project__title"]}>Project</div>
+          <div className={styles["project__title"]}>
+            Project <span>List</span>
+          </div>
 
           <Container fluid>
             <Row justify="between">

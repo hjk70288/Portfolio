@@ -15,13 +15,18 @@
     overflow-y: auto;
 
     .project__title {
+      font-family: "openSans", sans-serif;
       display: inline-block;
       font-size: 2.5rem;
       font-weight: bold;
       position: relative;
-      margin-bottom: 1.5em;
-      padding-left: 15px;
+      margin-bottom: 1em;
+      padding: 0 15px;
       color: #f5f7ff;
+
+      span {
+        color: #7392ff;
+      }
 
       &::after {
         position: absolute;
@@ -33,8 +38,8 @@
         width: 1.5em;
         background-image: -webkit-repeating-radial-gradient(
           center center,
-          #f5f7ff,
-          #f5f7ff 1px,
+          #7392ff,
+          #7392ff 1px,
           transparent 0px,
           transparent 100%
         );
@@ -55,5 +60,31 @@
   .project {
     width: 100%;
     border-radius: 0;
+  }
+}
+
+@media (max-width: 340px) {
+  .project {
+    .project__content {
+      .project__title {
+        margin-top: 1.5rem;
+        font-size: 2.3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 280px) {
+  .project {
+    .project__content {
+      .project__title {
+        margin-top: 1.8rem;
+        font-size: 2rem;
+
+        &::after {
+          display: none;
+        }
+      }
+    }
   }
 }
