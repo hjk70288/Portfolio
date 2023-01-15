@@ -13,9 +13,13 @@
     padding: 3rem;
     overflow-x: hidden;
     overflow-y: auto;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
 
     .project__title {
-      font-family: "openSans", sans-serif;
+      font-family: 'openSans', sans-serif;
       display: inline-block;
       font-size: 2.5rem;
       font-weight: bold;
@@ -33,7 +37,7 @@
         opacity: 0.45;
         top: 0.5em;
         right: -0.8em;
-        content: "";
+        content: '';
         height: 1em;
         width: 1.5em;
         background-image: -webkit-repeating-radial-gradient(

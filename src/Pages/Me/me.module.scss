@@ -12,9 +12,13 @@
     height: 100%;
     padding: 3rem;
     overflow: auto;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
 
     .me__title {
-      font-family: "openSans", sans-serif;
+      font-family: 'openSans', sans-serif;
       display: inline-block;
       font-size: 2.5rem;
       font-weight: bold;
@@ -31,7 +35,7 @@
         opacity: 0.45;
         top: 0.5em;
         right: -0.8em;
-        content: "";
+        content: '';
         height: 1em;
         width: 1.5em;
         background-image: -webkit-repeating-radial-gradient(
@@ -58,7 +62,7 @@
       color: #d8dbe7;
 
       .contact__title {
-        font-family: "openSans", sans-serif;
+        font-family: 'openSans', sans-serif;
         display: inline-block;
         color: #7392ff;
         font-weight: bold;
@@ -70,7 +74,7 @@
       margin-bottom: 3rem;
 
       .experience__title {
-        font-family: "openSans", sans-serif;
+        font-family: 'openSans', sans-serif;
         font-size: 1.5rem;
         font-weight: bold;
         display: inline-block;
@@ -86,7 +90,7 @@
           opacity: 0.45;
           top: 0.5em;
           right: -0.8em;
-          content: "";
+          content: '';
           height: 0.8em;
           width: 1.5em;
           background-image: -webkit-repeating-radial-gradient(
@@ -106,7 +110,7 @@
       margin-bottom: 3rem;
 
       .certificate__title {
-        font-family: "openSans", sans-serif;
+        font-family: 'openSans', sans-serif;
         font-size: 1.5rem;
         font-weight: bold;
         display: inline-block;
@@ -119,7 +123,7 @@
           opacity: 0.45;
           top: 0.5em;
           right: -0.8em;
-          content: "";
+          content: '';
           height: 0.8em;
           width: 1.5em;
           background-image: -webkit-repeating-radial-gradient(
@@ -137,7 +141,7 @@
 
     .me__education {
       .education__title {
-        font-family: "openSans", sans-serif;
+        font-family: 'openSans', sans-serif;
         font-size: 1.5rem;
         font-weight: bold;
         display: inline-block;
@@ -150,7 +154,7 @@
           opacity: 0.45;
           top: 0.5em;
           right: -0.8em;
-          content: "";
+          content: '';
           height: 0.8em;
           width: 1.5em;
           background-image: -webkit-repeating-radial-gradient(
@@ -168,7 +172,7 @@
 
     .me__tech-skill {
       .tech-skill__title {
-        font-family: "openSans", sans-serif;
+        font-family: 'openSans', sans-serif;
         font-size: 1.5rem;
         font-weight: bold;
         display: inline-block;
@@ -184,7 +188,7 @@
           opacity: 0.45;
           top: 0.5em;
           right: -0.8em;
-          content: "";
+          content: '';
           height: 0.8em;
           width: 1.5em;
           background-image: -webkit-repeating-radial-gradient(
